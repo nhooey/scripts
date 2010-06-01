@@ -1,0 +1,2 @@
+#!/bin/bash
+ssh -fXN -p 22 192.168.2.8 -L 22022:fs1:22  -o 'ConnectTimeout 5'

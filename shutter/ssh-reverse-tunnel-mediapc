@@ -1,0 +1,5 @@
+#!/bin/bash
+while true; do
+	ssh -nXNT -R 1100:localhost:22 mediapc
+	sleep 1m
+done
