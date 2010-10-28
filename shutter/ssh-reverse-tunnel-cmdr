@@ -1,5 +1,5 @@
 #!/bin/bash
 while true; do
-	ssh -nXNT -R 22126:localhost:22 mediapc
+	ssh -nXNT -R 22126:localhost:22 cmdr
 	sleep 1m
 done
