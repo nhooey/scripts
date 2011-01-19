@@ -1,5 +1,6 @@
 #!/bin/bash
 while true; do
-	ssh -nXNT -R 22126:localhost:22 cmdr
+	ssh -nXNT -R 22126:localhost:22 cmdr 2> /dev/null
+	echo -n '[cmdr]'
 	sleep 1m
 done
